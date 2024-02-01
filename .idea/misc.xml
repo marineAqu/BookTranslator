@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/drawable-hdpi/camera_button_image.xml" value="0.27" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/drawable-hdpi/ic_baseline_mic_none_24.xml" value="0.2685" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/drawable/ic_baseline_lens_24.xml" value="0.2685" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout-v17/activity_main.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout/activity_camera.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout/activity_ebook.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout/activity_splash.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout/activity_trans_by_voice.xml" value="0.2635416666666667" />
+        <entry key="..\:/Users/cheln/AndroidStudioProjects/VisionTextDetectionAndroidJava-master/app/src/main/res/layout/ocr_capture.xml" value="0.2635416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

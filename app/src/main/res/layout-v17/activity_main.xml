@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    android:background="#9F886C"
+    tools:context="com.acquaintsoft.vision.MainActivity">
+
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="365dp"
+        android:src="@drawable/stone2" />
+
+    <Button
+        android:backgroundTint="#70624E"
+        android:id="@+id/document_trans"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/picture_book_trans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="문서" />
+
+    <Button
+        android:backgroundTint="#70624E"
+        android:id="@+id/picture_book_trans"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/voice_trans"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="그림책" />
+
+    <Button
+        android:backgroundTint="#70624E"
+        android:id="@+id/voice_trans"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/e_book"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="음성" />
+
+
+    <Button
+        android:backgroundTint="#70624E"
+        android:id="@+id/e_book"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:text="책장" />
+
+    <Switch
+        android:id="@+id/auto_focus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="10dp"
+        android:checked="true"
+        android:text="@string/auto_focus" />
+
+    <Switch
+        android:id="@+id/use_flash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/auto_focus"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:checked="false"
+        android:text="@string/use_flash" />
+
+</RelativeLayout>
